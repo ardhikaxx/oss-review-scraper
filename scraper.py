@@ -29,7 +29,7 @@ def scrape_oss_reviews():
         all_reviews = []
         continuation_token = None
         
-        for i in range(50):
+        for i in range(20):
             print(f"Mengambil batch review ke-{i+1}...")
             
             result, continuation_token = reviews(
